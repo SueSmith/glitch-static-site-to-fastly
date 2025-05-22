@@ -7,14 +7,9 @@
   },
   "restart": {
     "include": [
-      "^\\.env$",
-      "^backend/"
+      "^\\.env$"
     ],
-    "exclude": [
-      "public/",
-      "vite.config.js",
-      "settings.json"
-    ]
+    "exclude": ["\\.njk$", "\\.css$", "\\.md"]
   },
   "noSavedEvents": true
 }
